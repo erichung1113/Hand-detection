@@ -14,6 +14,6 @@ listener = Listener(on_click=clicked) #set on_click function
 listener.start() #start process
 
 while True:
-    if click_times==2: #if get two coordinates
+    if click_times==1: #if get coordinate
         listener.stop() #stop process
         break
