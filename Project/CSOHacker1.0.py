@@ -79,8 +79,7 @@ if is_admin():
         #cv2.imshow("windows",image)
         if cv2.waitKey(1)==27:
             break
-
-
+            
 else:
     ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
 
