@@ -3,7 +3,7 @@ import time
 
 mouse.click("left") #click left button
 
-pos=mouse.get_position() #get coordinate
+pos=mouse.get_position() #get mouse position
 print(pos[0],pos[1]) #x,y coordinate
 
 mouse.is_pressed("left") #return a bool that whether left button is pressed
@@ -16,7 +16,7 @@ mouse.on_right_click(lambda:print("right button clicked")) #set right button lis
 time.sleep(3) #duration: 3  minutes
 mouse.unhook_all() #stop listening,remove all listeners
 
-mouse.wheel(-1) #scrool down one time
+mouse.wheel(-1) #scroll down one time
 
 events=mouse.record() #record mouse events until pressing right button
 mouse.play(events[:-1]) #play without right button
