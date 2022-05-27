@@ -19,4 +19,5 @@ pag.doubleClick()
 
 pag.scroll(-50) #scroll down 50 clicks(=1 time)
 
-pag.typewrite(['1','3','enter']) #keyboard input
+pag.typewrite("12345",0.1) #input a string and each letter's interval is 0.1
+pag.typewrite(['1','3','enter']) #input a list of letter
