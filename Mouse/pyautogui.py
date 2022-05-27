@@ -18,3 +18,5 @@ pag.click(clicks=2) #double-click the left mouse button =below
 pag.doubleClick()
 
 pag.scroll(-50) #scroll down 50 clicks(=1 time)
+
+pag.typewrite(['1','3','enter']) #keyboard input
