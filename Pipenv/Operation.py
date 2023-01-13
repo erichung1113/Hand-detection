@@ -6,4 +6,4 @@ pipenv shell #enter the virtual environment
 
 exit #exit the virtual environment
 
-pipenv -rm #remove current environment
+pipenv --rm #remove current environment
